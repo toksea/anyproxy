@@ -45,6 +45,7 @@
     "stream-equal": "0.1.8"
   },
   "scripts": {
+    "start": "node bin.js  --rule ./rule_sample/rule_log_response.js",
     "test": "sh test/test.sh",
     "testserver": "node test/server/startServer.js",
     "no-pre-commit": "exit 0"
